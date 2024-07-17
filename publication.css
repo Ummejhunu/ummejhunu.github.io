@@ -1,0 +1,87 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif; /* Example font-family */
+    line-height: 1.6;
+    background-color: #fefae0; /* Cornsilk */
+}
+
+/* Section styles */
+.ftco-section {
+    padding: 4em 0;
+}
+
+.ftco-no-pb {
+    padding-bottom: 0;
+}
+
+/* Row styles */
+.row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+/* Column styles */
+.col-md-5 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* Publication item styles */
+.resume-wrap {
+    background: #fefae0; /* Cornsilk */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.resume-wrap:hover {
+    transform: translateY(-5px);
+}
+
+.resume-wrap .date {
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    color: #bc6c25; /* Medium Bronze */
+    margin-bottom: 10px;
+}
+
+.resume-wrap .position {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #283618; /* Dark Jungle Green */
+    margin-bottom: 10px;
+}
+
+.resume-wrap ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.resume-wrap ul li {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #606c38; /* Olive Drab */
+}
+
+.resume-wrap ul li a {
+    color: #dda15e; /* Tan */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.resume-wrap ul li a:hover {
+    text-decoration: underline;
+}
